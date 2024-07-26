@@ -1,0 +1,10 @@
+whisparrNetwork:
+  webPort: 30069
+
+whisparrRunAs:
+  user: 1000
+  group: 1000
+
+whisparrStorage:
+  config:
+    type: pvc

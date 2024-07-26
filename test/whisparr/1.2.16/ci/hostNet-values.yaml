@@ -1,0 +1,7 @@
+whisparrNetwork:
+  webPort: 30069
+  hostNetwork: true
+
+whisparrStorage:
+  config:
+    type: pvc
