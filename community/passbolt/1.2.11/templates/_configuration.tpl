@@ -40,4 +40,7 @@ configmap:
       GNUPGHOME: /var/lib/passbolt/.gnupg
       PASSBOLT_GPG_SERVER_KEY_PUBLIC: /etc/passbolt/gpg/serverkey.asc
       PASSBOLT_GPG_SERVER_KEY_PRIVATE: /etc/passbolt/gpg/serverkey_private.asc
+      EMAIL_DEFAULT_FROM: {{ .Values.passboltConfig.emailFrom }}
+      EMAIL_TRANSPORT_DEFAULT_HOST: {{ .Values.passboltConfig.emailTransportHost }}
+      EMAIL_TRANSPORT_DEFAULT_PORT: {{ .Values.passboltConfig.emailTransportPort }}
 {{- end -}}
