@@ -113,6 +113,36 @@
                                     "required": true
                                 }
                             },
+			    {
+				"variable": "emailFrom",
+				"label": "E-Mail From",
+				"description": "The E-Mail address passbolt will send emails asa.",
+				"schema": {
+				   "type": "string",
+			           "default": "noreply@passbolt.org",
+			           "required": true	   
+				}
+			    },
+			    {
+			        "variable": "emailTransportHost",
+				"label": "Email Transport Host",
+				"description": "",
+				"schema": {
+			          "type": "string",
+				  "default": "localhost",
+				  "required": true
+				}
+			    },
+			    {
+ 			        "variable": "emailTransportPort",
+				"label": "Email Transport Port",
+				"description": "",
+				"schema": {
+			          "type": "int",
+				  "default": "31025",
+				  "required": true
+				}
+			    },
                             {
                                 "variable": "additionalEnvs",
                                 "label": "Additional Environment Variables",
