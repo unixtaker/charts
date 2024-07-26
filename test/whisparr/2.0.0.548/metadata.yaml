@@ -1,8 +1,0 @@
-runAsContext:
-  - userName: whisparr
-    groupName: whisparr
-    gid: 569
-    uid: 569
-    description: Whisparr can run as any non-root user.
-capabilities: []
-hostMounts: []
