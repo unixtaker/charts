@@ -19,9 +19,9 @@
                 "title": "Whisparr"
             },
             "type": "application",
-            "version": "24.07.28.001",
+            "version": "2.0.0.548",
             "apiVersion": "v2",
-            "appVersion": "2.0.0.548",
+            "appVersion": "24.07.28.001",
             "kubeVersion": ">=1.16.0-0",
             "maintainers": [
                 {
