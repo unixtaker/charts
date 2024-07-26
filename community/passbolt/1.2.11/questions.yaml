@@ -34,6 +34,31 @@ questions:
             type: uri
             default: ''
             required: true
+        - variable: emailFrom
+          label: E-Mail From Address
+          description: |
+            The E-Mail address passbolt will send emails as.</br>
+            Format is: noreply@server.zz
+          schema:
+            type: email
+            default: ''
+            required: true
+        - variable: emailTransportHost
+          label: E-Mail Transport Host
+          description: |
+            The hostname or IP address for the SMTP server
+          schema:
+            type: host
+            default: 'localhost'
+            required: true
+        - variable: emailTransportPort
+          label: E-Mail Transport Port
+          description: |
+            The port for the SMTP server
+          schema:
+            type: int
+            default: 1025
+            required: true
         - variable: additionalEnvs
           label: Additional Environment Variables
           description: Configure additional environment variables for Passbolt.
